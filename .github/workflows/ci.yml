@@ -20,5 +20,5 @@ jobs:
         run: make train
       - name: Evaluation
         env:
-          GITHUB_TOKEN: ${{ secrets.main_build }}
+          GITHUB_TOKEN: ${{ secrets.SECRETTEST }}
         run: make eval
