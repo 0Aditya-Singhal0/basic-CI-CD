@@ -3,7 +3,7 @@ install:
 	pip install -r requirements.txt
 
 format:
-	ruff *.py
+	ruff format
 
 train:
 	python train.py
