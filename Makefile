@@ -20,5 +20,6 @@ eval:
 update-branch:
 	git config --global user.name $(USER_NAME)
 	git config --global user.email $(USER_EMAIL)
+	git checkout -B update
 	git commit -am "Update with new results"
-	git push origin update
+	git push -u origin update
