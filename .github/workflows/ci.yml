@@ -23,9 +23,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SECRETTEST }}
         run: make eval
       - name: Update Branch
-        env:
-          NAME: ${{ secrets.USER_NAME }}
-          EMAIL: ${{ secrets.USER_EMAIL }}
-          GITHUB_TOKEN: ${{ secrets.SECRETTEST }}
         run: make update-branch USER_NAME=$NAME USER_EMAIL=$EMAIL AUTH=$GITHUB_TOKEN
 

@@ -18,7 +18,7 @@ eval:
 	cml comment create report.md --token ${GITHUB_TOKEN}
 
 update-branch:
-	git config --global user.name $(USER_NAME)
-	git config --global user.email $(USER_EMAIL)
+	git config --global user.name 0Aditya-Singhal0
+	git config --global user.email aditya.singhal.1909@gmail.com
 	git commit -am "Update with new results"
 	git push origin HEAD:update
