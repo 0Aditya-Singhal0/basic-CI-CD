@@ -20,6 +20,8 @@ eval:
 update-branch:
 	git config --global user.name 0Aditya-Singhal0
 	git config --global user.email aditya.singhal.1909@gmail.com
+	git fetch origin
+	git merge origin/update
 	git add .
 	git commit -am "Update with new results"
 	git push origin HEAD:update
