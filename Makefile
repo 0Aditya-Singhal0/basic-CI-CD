@@ -20,6 +20,5 @@ eval:
 update-branch:
 	git config --global user.name $(USER_NAME)
 	git config --global user.email $(USER_EMAIL)
-	git checkout -B update
 	git commit -am "Update with new results"
-	git push git push -u https://${AUTH}@github.com/0Aditya-Singhal0/basic-CI-CD.git update
+	git push -u https://${AUTH}@github.com/0Aditya-Singhal0/basic-CI-CD.git HEAD:main
