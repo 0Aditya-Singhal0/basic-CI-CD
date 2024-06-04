@@ -22,6 +22,6 @@ update-branch:
 	git config --global user.email aditya.singhal.1909@gmail.com
 	git checkout -B update
 	git fetch origin
-	git merge origin/update
+	git merge origin update
 	git commit -am "Update with new results"
 	git push origin HEAD:update
