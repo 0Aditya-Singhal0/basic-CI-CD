@@ -3,3 +3,4 @@ skops
 pandas
 matplotlib
 gradio
+huggingface_hub[cli]

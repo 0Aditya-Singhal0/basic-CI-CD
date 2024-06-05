@@ -4,3 +4,4 @@ pandas
 matplotlib
 ruff
 gradio
+huggingface_hub[cli]
